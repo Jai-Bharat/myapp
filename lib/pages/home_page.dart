@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/widgets/drawer.dart';
 
 // ignore: must_be_immutable
 class HomePage extends StatelessWidget {
@@ -20,7 +21,7 @@ class HomePage extends StatelessWidget {
           child: Text("Hey! I am $name here for $days days"),
         ),
       ),
-      drawer: Drawer(
+      drawer: MyDrawer(
          
       ),
     );
