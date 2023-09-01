@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/utils/routes.dart';
 import 'pages/home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  // const MyApp({super.key});
 
   // const MyApp({super.key});
 
@@ -27,9 +28,9 @@ class MyApp extends StatelessWidget {
       ),
       // initialRoute: "/home",
       routes: {
-        "/": (context) => const LoginPage(),
-        "/home": (context) => HomePage(),
-        "/login": (context) => const LoginPage(),
+        "/": (context) => LoginPage(),
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.loginRoute: (context) => LoginPage(),
       },
     );
   }
