@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "iPhone 12 Pro",
+            "desc": "Apple iPhone 12 Generation",
+            "price": 895,
+            "color": "#35505a",
+            "image": "assets/images/iphone12pro.jpg"
+        },
+        {
+            "id": 2,
+            "name": "iPhone 13 Pro",
+            "desc": "Apple iPhone 13 Generation",
+            "price": 999,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 3,
+            "name": "Pixel 5",
+            "desc": "Google Pixel Phone 5th Generation",
+            "price": 698,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 4,
+            "name": "M1 Macbook Air ",
+            "desc": "M1 Macbook air with apple silicon",
+            "price": 1699,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 5,
+            "name": "PlayStation 5",
+            "desc": "Sony PlayStation 5 Generation",
+            "price": 898,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 6,
+            "name": "Airpods Pro",
+            "desc": "Apple Airpods Pro 1st Generation",
+            "price": 698,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 7,
+            "name": "Galaxy S21 Ultra",
+            "desc": "Samsung Galaxy S21 Ultra 21 Edition",
+            "price": 668,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 8,
+            "name": "iPad Pro",
+            "desc": "Apple iPad Pro 2020 Edition",
+            "price": 898,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 9,
+            "name": "Airpods Pro",
+            "desc": "Apple Airpods Pro 1st Generation",
+            "price": 298,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 10,
+            "name": "Realme 8",
+            "desc": "Realme 8 4G version",
+            "price": 399,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 11,
+            "name": "Realme 8",
+            "desc": "Realme 8 5G version",
+            "price": 498,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        },
+        {
+            "id": 12,
+            "name": "Realme Buds 2",
+            "desc": "Realme wired earphones",
+            "price": 99,
+            "color": "#00ac51",
+            "image": "assets/images/login_image.png"
+        }
+    ]
+}
