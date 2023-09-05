@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyTheme {
   static ThemeData lightTheme(BuildContext) => ThemeData(
         primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
+        fontFamily: GoogleFonts.poppins().fontFamily,
         appBarTheme: AppBarTheme(
           color: Colors.white,
           elevation: 0.0,
@@ -19,4 +19,9 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext) => ThemeData(
         brightness: Brightness.dark,
       );
+
+  //colors
+  static Color creamColor = Color(0xfff5f5f5);
+  static Color darkBluishColor = Color(0xff403b58);
+
 }
