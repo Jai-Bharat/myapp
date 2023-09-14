@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+
 import 'package:flutter/material.dart';
 import 'package:myapp/models/catalog.dart';
 import 'package:myapp/widgets/themes.dart';
@@ -13,12 +13,10 @@ class HOmeDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-      ),
-      backgroundColor: MyTheme.creamColor,
+      appBar: AppBar(backgroundColor: Colors.transparent),
+      backgroundColor: context.canvasColor,
       bottomNavigationBar: Container(
-        color: Colors.white,
+        color: context.cardColor,
         child: ButtonBar(
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: Vx.mH8,

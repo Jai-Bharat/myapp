@@ -30,6 +30,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Material(
       color: Colors.white,
+      // color: context.canvasColor,
       child: SingleChildScrollView(
         child: Form(
           key: _formKey,
