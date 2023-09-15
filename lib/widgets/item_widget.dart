@@ -4,8 +4,7 @@ import 'package:myapp/models/catalog.dart';
 class ItemWidget extends StatelessWidget {
   final Item item;
 
-  // ignore: unnecessary_null_comparison
-  const ItemWidget({super.key, required this.item});
+  ItemWidget({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +13,9 @@ class ItemWidget extends StatelessWidget {
         onTap: () {
           print("${item.name} Pressed");
         },
-        leading: Image.asset(item.image),
+        leading: Image.asset(
+          item.image,
+        ),
         title: Text(item.name),
         subtitle: Text(item.desc),
         trailing: Text(
