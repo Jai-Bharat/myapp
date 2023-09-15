@@ -1,14 +1,13 @@
-
 import 'package:flutter/material.dart';
 import 'package:myapp/models/catalog.dart';
+import 'package:myapp/widgets/home_widgets/add_to_cart.dart';
 import 'package:myapp/widgets/themes.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HOmeDetailPage extends StatelessWidget {
   final Item catalog;
 
-  const HOmeDetailPage({super.key, required this.catalog})
-      : assert(catalog != null);
+  const HOmeDetailPage({super.key, required this.catalog});
 
   @override
   Widget build(BuildContext context) {
@@ -22,14 +21,8 @@ class HOmeDetailPage extends StatelessWidget {
           buttonPadding: Vx.mH8,
           children: [
             "\$${catalog.price}".text.bold.xl4.red800.make(),
-            ElevatedButton(
-              onPressed: () {},
-              style: ButtonStyle(
-                  backgroundColor: MaterialStatePropertyAll(
-                    MyTheme.darkBluishColor,
-                  ),
-                  shape: MaterialStatePropertyAll(StadiumBorder())),
-              child: "Add to cart".text.make(),
+            AddToCart(
+              catalog: catalog,
             ).wh(120, 50)
           ],
         ).p16(),
